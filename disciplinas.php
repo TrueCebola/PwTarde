@@ -2,7 +2,7 @@
 
 <?php
     if(isset($_GET["pesquisa"])&&!empty($_GET["pesquisa"])){
-        $dados = file_get_contents("https://reserva.fatectq.edu.br/api/disciplinas/busca/".$_GET["pesquisa"]);
+        $dados = file_get_contents("https://reserva.fatectq.edu.br/api/disciplinas/busca/".urlencode($_GET["pesquisa"]));
         $dados = json_decode($dados,true);
     }else{
         //Traz conteudo da url
