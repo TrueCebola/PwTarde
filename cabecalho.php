@@ -28,7 +28,7 @@
         <li class="nav-item">
           <a class="nav-link" href="./usuarios.php">Usuários</a>
         </li>
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Cadastro
           </a>
@@ -47,7 +47,7 @@
         </li>
         <li class="nav-item">
             <a class="nav-link" href="./disciplinas.php">Disciplinas</a>
-        </li>
+        </li> -->
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
